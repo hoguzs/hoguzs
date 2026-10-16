@@ -39,7 +39,7 @@ Bir sütun numarasına tıkla, açılan sayfada **Submit new issue** düğmesine
 ## 😄 Günün yazılımcı şakası
 
 <!-- JOKE:START -->
-> 😄 Yorum satırı: Bunu yazdığımda bir tek ben ve Tanrı ne yaptığımı biliyorduk. Şimdi sadece Tanrı biliyor.
+> 😄 Commit mesajım: "son-son-gerçekten-son-v2-düzeltildi".
 <!-- JOKE:END -->
 
 ## 📜 Bir şiir
