@@ -15,19 +15,24 @@
   </picture>
 </p>
 
-## 📜 Bir şiir
+## 💬 Günün sözü
 
+<!-- QUOTE:START -->
+> 💬 **Dost acı söyler.**
+>
+> <sub>Atasözü · Gerçek dost, hoşuna gitmese de doğruyu söyler.</sub>
+<!-- QUOTE:END -->
+
+## 📜 Günün şiiri
+
+<!-- POEM:START -->
 *Yunus Emre*
-
-Gelin tanış olalım,<br>
-İşi kolay kılalım,<br>
-Sevelim sevilelim,<br>
-Dünya kimseye kalmaz.
 
 Ben gelmedim dava için,<br>
 Benim işim sevi için,<br>
 Dostun evi gönüllerdir,<br>
 Gönüller yapmaya geldim.
+<!-- POEM:END -->
 
 ## 🎮 Benimle Connect Four oyna
 

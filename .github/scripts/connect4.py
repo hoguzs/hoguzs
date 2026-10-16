@@ -28,13 +28,14 @@ for r in range(ROWS):
                 LINES.append(cells)
 
 
-def new_state(stats=None):
+def new_state(stats=None, players=None):
     return {
         "board": [[0] * COLS for _ in range(ROWS)],
         "over": False,
         "result": "",
         "last": "",
         "stats": stats or {"win": 0, "loss": 0, "draw": 0},
+        "players": players or {},
     }
 
 
@@ -152,6 +153,13 @@ def render(state, repo):
         "",
         f"📊 **Skor:** Ziyaretçiler **{s['win']}** · Ben **{s['loss']}** · Berabere **{s['draw']}**",
     ]
+    top = sorted(state.get("players", {}).items(), key=lambda kv: (-kv[1], kv[0]))[:5]
+    if top:
+        medals = ["🥇", "🥈", "🥉", "4.", "5."]
+        board_txt = " · ".join(f"{medals[i]} [{n}](https://github.com/{n}) ({w})" for i, (n, w) in enumerate(top))
+        lines.append(f"🏆 **Şampiyonlar:** {board_txt}")
+    else:
+        lines.append("🏆 **Şampiyonlar:** Henüz kazanan yok, ilk şampiyon sen ol!")
     if state["last"]:
         lines.append(f"🕹️ **Son hamle:** [{state['last']}](https://github.com/{state['last']})")
     lines.append("<!-- C4:END -->")
@@ -186,7 +194,7 @@ def main():
         actor = ""
 
     if state["over"]:
-        state = new_state(state["stats"])
+        state = new_state(state["stats"], state.get("players"))
     board = state["board"]
 
     if board[0][col] != 0:
@@ -200,6 +208,9 @@ def main():
     if has_won(board, 1):
         state.update(over=True, result="win")
         stats["win"] += 1
+        if actor:
+            players = state.setdefault("players", {})
+            players[actor] = players.get(actor, 0) + 1
         msg = f"🎉 {col + 1}. sütuna attığın taşla dörtlüyü tamamladın, **kazandın**! Tebrikler. Yeni oyun için README'den bir sütuna tıkla."
     elif not valid_cols(board):
         state.update(over=True, result="draw")

@@ -1,0 +1,31 @@
+name: Günlük yenileme
+
+on:
+  schedule:
+    - cron: "5 3 * * *"   # 06:05 (TR): gün doğumu
+    - cron: "5 16 * * *"  # 19:05 (TR): gece
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-writes
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/daily.py
+      - name: Kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Günlük yenileme"
+            git pull --rebase -q
+            git push
+          fi

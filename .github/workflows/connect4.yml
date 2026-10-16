@@ -9,7 +9,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: connect-four
+  group: profile-writes
   cancel-in-progress: false
 
 jobs:
