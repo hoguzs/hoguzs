@@ -1,0 +1,49 @@
+name: Connect Four
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: connect-four
+  cancel-in-progress: false
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'c4|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Hamleyi işle
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          ACTOR: ${{ github.event.issue.user.login }}
+          REPO: ${{ github.repository }}
+          REPLY_FILE: ${{ runner.temp }}/reply.txt
+        run: python3 .github/scripts/connect4.py
+
+      - name: Kaydet
+        env:
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Connect Four hamlesi (#$NUM)"
+            git pull --rebase -q
+            git push
+          fi
+
+      - name: Yanıtla ve kapat
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUM" --body-file "$RUNNER_TEMP/reply.txt"
+          gh issue close "$NUM" --reason completed
