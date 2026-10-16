@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Selam, ben Oğuz" width="100%" />
+  <img src="assets/banner.svg?v=4" alt="Selam, ben Oğuz" width="100%" />
 </p>
 
 <p align="center">
@@ -34,22 +34,16 @@ Bir sütun numarasına tıkla, açılan sayfada **Submit new issue** düğmesine
   </picture>
 </p>
 
-## 😄 Günün yazılımcı şakası
-
-<!-- JOKE:START -->
-> 😄 Commit mesajım: "son-son-gerçekten-son-v2-düzeltildi".
-<!-- JOKE:END -->
-
 ## 📜 Bir şiir
 
-**Noktalı Virgül**
+*Yunus Emre*
 
-Saatlerdir bir hatanın peşindeyim,<br>
-Kahvem soğudu, ben hâlâ buradayım.<br>
-Meğer bir noktalı virgül eksikmiş,<br>
-Gülsem mi, ağlasam mı, bilemedim.
+Gelin tanış olalım,<br>
+İşi kolay kılalım,<br>
+Sevelim sevilelim,<br>
+Dünya kimseye kalmaz.
 
-Sonunda yeşil yandı bütün testler,<br>
-Hafifledi omuzlarım, kalktı kederler.<br>
-Yarın yine bir yenisi çıkar elbet,<br>
-Ama bu gece uyusun hatalar, uyusun melekler.
+Ben gelmedim dava için,<br>
+Benim işim sevi için,<br>
+Dostun evi gönüllerdir,<br>
+Gönüller yapmaya geldim.
