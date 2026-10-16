@@ -21,10 +21,11 @@ Bir sütun numarasına tıkla, açılan sayfada **Submit new issue** düğmesine
 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | 🟡 | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | 🔴 | ⚪ | ⚪ | ⚪ |
 
 📊 **Skor:** Ziyaretçiler **0** · Ben **0** · Berabere **0**
+🕹️ **Son hamle:** [hoguzs](https://github.com/hoguzs)
 <!-- C4:END -->
 
 ## 🐍 Katkı yılanı
