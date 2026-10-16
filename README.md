@@ -1,8 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,50:7c3aed,100:ec4899&height=240&section=header&text=Selam,%20ben%20O%C4%9Fuz&fontSize=54&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=Kod%20%C2%B7%20G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme%20%C2%B7%20Dron&descSize=20&descAlignY=60&descColor=ffffff" alt="Selam, ben Oğuz" width="100%"/>
-
-<p align="center">
-  <b>🧠 Görüntü işleme &nbsp;·&nbsp; 🚁 Dron &nbsp;·&nbsp; 🐍 Python &nbsp;·&nbsp; 🎯 YOLO &nbsp;·&nbsp; 🚀 Bir şeyler kurmak</b>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,50:7c3aed,100:ec4899&height=200&section=header&text=Selam,%20ben%20O%C4%9Fuz&fontSize=54&fontColor=ffffff&fontAlignY=50&animation=twinkling" alt="Selam, ben Oğuz" width="100%"/>
 
 <p align="center">
   <img src="https://hits.sh/github.com/hoguzs.svg?label=Profil%20G%C3%B6r%C3%BCnt%C3%BClenme&color=0e75b6" alt="Profil Görüntülenme" />
