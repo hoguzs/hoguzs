@@ -8,17 +8,6 @@
   <img src="https://hits.sh/github.com/hoguzs.svg?label=Profil%20G%C3%B6r%C3%BCnt%C3%BClenme&color=0e75b6" alt="Profil Görüntülenme" />
 </p>
 
-## 🛠️ Kullandıklarım
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
-
 ## 🐍 Katkı yılanı
 
 <p align="center">
@@ -27,3 +16,17 @@
     <img alt="Katkı grafiğini yiyen yılan" src="https://raw.githubusercontent.com/hoguzs/hoguzs/output/github-snake.svg" />
   </picture>
 </p>
+
+## 😄 Günün yazılımcı şakası
+
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Rastgele yazılımcı şakası" />
+</p>
+
+## 💬 Günün sözü
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Rastgele söz" />
+</p>
+
+<p align="center"><sub>Şaka ve söz her sayfa yenilemede değişir 🎲</sub></p>
