@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Selam, ben Oğuz">
+<defs>
+<clipPath id="c1"><rect x="382" y="64" width="120" height="16"><animate attributeName="width" values="0;0;120;120" keyTimes="0.0000;0.0417;0.1167;1.0000" dur="12.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c3"><rect x="382" y="114" width="200" height="16"><animate attributeName="width" values="0;0;200;200" keyTimes="0.0000;0.2167;0.3167;1.0000" dur="12.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c5"><rect x="380" y="182" width="330" height="40"><animate attributeName="width" values="0;0;330;330" keyTimes="0.0000;0.5667;0.7333;1.0000" dur="12.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="r"><rect width="900" height="260" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+<rect width="900" height="260" fill="#0d1117"/>
+<rect x="0.75" y="0.75" width="898.5" height="258.5" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+<!-- masa -->
+<line x1="36" y1="204" x2="334" y2="204" stroke="#30363d" stroke-width="2" stroke-linecap="round"/>
+
+<!-- çöp adam -->
+<g stroke="#c9d1d9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+ <g>
+  <circle cx="160" cy="88" r="17" fill="#0d1117"/>
+  <circle cx="153.5" cy="85" r="1.8" fill="#c9d1d9" stroke="none"/>
+  <circle cx="166.5" cy="85" r="1.8" fill="#c9d1d9" stroke="none"/>
+  <path d="M153 94 Q160 94 167 94"><animate attributeName="d" values="M153 94 Q160 94 167 94;M153 94 Q160 94 167 94;M153 93 Q160 102 167 93;M153 93 Q160 102 167 93;M153 94 Q160 94 167 94" keyTimes="0;0.5;0.55;0.96;1" dur="12s" repeatCount="indefinite"/></path>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 2;0 0" dur="0.6s" repeatCount="indefinite"/>
+ </g>
+ <line x1="160" y1="105" x2="160" y2="152"/>
+ <line x1="138" y1="118" x2="182" y2="118"/>
+ <!-- yazarken kollar -->
+ <g opacity="0">
+  <animate attributeName="opacity" values="1;0;1" keyTimes="0.0000;0.5500;0.9667" dur="12.0s" repeatCount="indefinite" calcMode="discrete"/>
+  <polyline points="138,118 130,150 148,166"><animateTransform attributeName="transform" type="translate" values="0 0;0 3;0 0" dur="0.32s" repeatCount="indefinite"/></polyline>
+  <polyline points="182,118 190,150 172,166"><animateTransform attributeName="transform" type="translate" values="0 3;0 0;0 3" dur="0.32s" repeatCount="indefinite"/></polyline>
+ </g>
+ <!-- el sallarken kollar -->
+ <g>
+  <animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5500;0.9667" dur="12.0s" repeatCount="indefinite" calcMode="discrete"/>
+  <polyline points="138,118 130,150 148,166"/>
+  <polyline points="182,118 208,100"/>
+  <g>
+   <animateTransform attributeName="transform" type="rotate" values="-22 208 100;22 208 100;-22 208 100" dur="0.55s" repeatCount="indefinite"/>
+   <line x1="208" y1="100" x2="214" y2="70"/>
+   <circle cx="215" cy="66" r="3.5" fill="#c9d1d9" stroke="none"/>
+  </g>
+ </g>
+</g>
+
+<!-- laptop -->
+<rect x="104" y="152" width="112" height="52" rx="5" fill="#161b22" stroke="#c9d1d9" stroke-width="2.5"/>
+<circle cx="160" cy="178" r="6" fill="none" stroke="#8b949e" stroke-width="2"><animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/></circle>
+<line x1="88" y1="204" x2="232" y2="204" stroke="#c9d1d9" stroke-width="3" stroke-linecap="round"/>
+
+<!-- kupa -->
+<g stroke="#c9d1d9" stroke-width="2.5" fill="none" stroke-linecap="round">
+ <path d="M272 184 h20 v14 a6 6 0 0 1 -6 6 h-8 a6 6 0 0 1 -6 -6 z" fill="#161b22"/>
+ <path d="M292 188 h4 a4 4 0 0 1 0 9 h-4"/>
+ <g stroke="#8b949e" stroke-width="2">
+  <path d="M278 176 q-4 -6 0 -12"><animate attributeName="opacity" values="0;0.9;0" dur="2.4s" repeatCount="indefinite"/></path>
+  <path d="M286 176 q4 -6 0 -12"><animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></path>
+ </g>
+</g>
+
+<!-- konuşma balonu -->
+<g opacity="0">
+ <animate attributeName="opacity" values="0;1;0" keyTimes="0.0000;0.5833;0.9000" dur="12.0s" repeatCount="indefinite" calcMode="discrete"/>
+ <path d="M236 44 h74 a8 8 0 0 1 8 8 v20 a8 8 0 0 1 -8 8 h-60 l-12 10 v-10 h-2 a8 8 0 0 1 -8 -8 v-20 a8 8 0 0 1 8 -8z" fill="#161b22" stroke="#c9d1d9" stroke-width="2"/>
+ <text x="273" y="68" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#c9d1d9">selam!</text>
+</g>
+
+<!-- terminal -->
+<g>
+ <animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.9417;0.9833;1.0000" dur="12.0s" repeatCount="indefinite"/>
+ <rect x="360" y="24" width="520" height="212" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+ <line x1="360" y1="52" x2="880" y2="52" stroke="#30363d" stroke-width="1.5"/>
+ <circle cx="380" cy="38" r="5" fill="#30363d"/><circle cx="398" cy="38" r="5" fill="#30363d"/><circle cx="416" cy="38" r="5" fill="#30363d"/>
+ <text x="620" y="43" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="12" fill="#8b949e">oguz@dev: ~</text>
+
+ <g clip-path="url(#c1)"><text x="382" y="76" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> whoami</tspan></text></g>
+ <text x="382" y="98" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#8b949e" opacity="0">oguz<animate attributeName="opacity" values="0;1;1" keyTimes="0.0000;0.1500;1.0000" dur="12.0s" repeatCount="indefinite" calcMode="discrete"/></text>
+ <g clip-path="url(#c3)"><text x="382" y="126" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> ./selam.sh</tspan></text></g>
+ <g>
+  <animate attributeName="opacity" values="0;1;1" keyTimes="0.0000;0.3250;1.0000" dur="12.0s" repeatCount="indefinite" calcMode="discrete"/>
+  <text x="382" y="150" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#8b949e">derleniyor</text>
+  <rect x="492" y="138" width="150" height="12" rx="3" fill="none" stroke="#8b949e" stroke-width="1.2"/>
+  <rect x="494" y="140" width="0" height="8" rx="2" fill="#c9d1d9"><animate attributeName="width" values="0;0;146;146" keyTimes="0.0000;0.3333;0.5000;1.0000" dur="12.0s" repeatCount="indefinite"/></rect>
+  <text x="654" y="150" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#3fb950" opacity="0">✓ tamam<animate attributeName="opacity" values="0;1;1" keyTimes="0.0000;0.5083;1.0000" dur="12.0s" repeatCount="indefinite" calcMode="discrete"/></text>
+ </g>
+ <g clip-path="url(#c5)"><text x="382" y="208" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="30" font-weight="700"><tspan fill="#3fb950">&gt;</tspan><tspan fill="#f0f6fc"> Selam, ben Oğuz</tspan></text></g>
+ <rect x="690" y="186" width="14" height="26" fill="#c9d1d9" opacity="0"><animate attributeName="opacity" values="0;1;0;1;0;1;1" keyTimes="0.0000;0.7333;0.7750;0.8167;0.8583;0.9000;1.0000" dur="12.0s" repeatCount="indefinite" calcMode="discrete"/></rect>
+</g>
+</g>
+</svg>
