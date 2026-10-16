@@ -83,6 +83,26 @@
  <path d="M295.6 124.0 l2.3 2.5 l4.4 -5.6" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14" stroke-dashoffset="0">
   <animate attributeName="stroke-dashoffset" values="14;14;0;0;14" keyTimes="0;0.5083;0.5417;0.9583;1" dur="12s" repeatCount="indefinite"/></path>
 </g>
+
+<!-- poster -->
+<g>
+ <line x1="117" y1="60" x2="117" y2="66" stroke="#8b949e" stroke-width="1.5"/>
+ <rect x="100" y="66" width="34" height="42" rx="2" fill="#161b22" stroke="#c9d1d9" stroke-width="2"/>
+ <text x="117" y="92" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" font-weight="700" fill="#3fb950">&lt;/&gt;</text>
+ <line x1="107" y1="99" x2="127" y2="99" stroke="#8b949e" stroke-width="1.5"/>
+</g>
+<!-- uyuyan kedi -->
+<g stroke="#c9d1d9" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="#11161d">
+ <ellipse cx="222" cy="219" rx="25" ry="9"><animate attributeName="ry" values="9;10;9" dur="3s" repeatCount="indefinite"/><animate attributeName="cy" values="219;218;219" dur="3s" repeatCount="indefinite"/></ellipse>
+ <path d="M246 221 q12 -2 10 -10 q-1 -4 -6 -3" fill="none"/>
+ <circle cx="198" cy="218" r="8"/>
+ <path d="M192 212 l-1 -7 l6 4 M200 210 l3 -7 l2 8" fill="none"/>
+ <path d="M194 219 h3 M200 219 h3" fill="none" stroke-width="1.6"/>
+</g>
+<g font-family="'SF Mono',Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#8b949e">
+ <text x="206" y="204">z<animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/><animate attributeName="y" values="206;196" dur="3s" repeatCount="indefinite"/></text>
+ <text x="214" y="204">Z<animate attributeName="opacity" values="0;1;0" dur="3s" begin="1s" repeatCount="indefinite"/><animate attributeName="y" values="206;192" dur="3s" begin="1s" repeatCount="indefinite"/></text>
+</g>
 <line x1="100" y1="204" x2="340" y2="204" stroke="#c9d1d9" stroke-width="3" stroke-linecap="round"/>
 <line x1="116" y1="206" x2="116" y2="228" stroke="#8b949e" stroke-width="3" stroke-linecap="round"/>
 <line x1="324" y1="206" x2="324" y2="228" stroke="#8b949e" stroke-width="3" stroke-linecap="round"/>
