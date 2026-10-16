@@ -47,8 +47,10 @@ Bir sütun numarasına tıkla, açılan sayfada **Submit new issue** düğmesine
 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
 | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
-| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | 🟡 | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | 🔴 | ⚪ | ⚪ | ⚪ |
 
 📊 **Skor:** Ziyaretçiler **0** · Ben **0** · Berabere **0**
+🏆 **Şampiyonlar:** Henüz kazanan yok, ilk şampiyon sen ol!
+🕹️ **Son hamle:** [hoguzs](https://github.com/hoguzs)
 <!-- C4:END -->
