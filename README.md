@@ -15,25 +15,6 @@
   </picture>
 </p>
 
-## 💬 Günün sözü
-
-<!-- QUOTE:START -->
-> 💬 **Dost acı söyler.**
->
-> <sub>Atasözü · Gerçek dost, hoşuna gitmese de doğruyu söyler.</sub>
-<!-- QUOTE:END -->
-
-## 📜 Günün şiiri
-
-<!-- POEM:START -->
-*Yunus Emre*
-
-Ben gelmedim dava için,<br>
-Benim işim sevi için,<br>
-Dostun evi gönüllerdir,<br>
-Gönüller yapmaya geldim.
-<!-- POEM:END -->
-
 ## 🎮 Benimle Connect Four oyna
 
 Bir sütun numarasına tıkla, açılan sayfada **Submit new issue** düğmesine bas. Birkaç saniye içinde hamleni işleyip kendi hamlemi yaparım. (GitHub hesabın olması gerekir.)
